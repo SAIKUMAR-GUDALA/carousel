@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #sampleImage{
+            height: 400px;
+            width: 100%;
+            position: relative;
+        }
+        #leftButton{
+            position: absolute;
+            top: 200px;
+            height: 20px;
+            left: 100px;
+            width: 40px;
+            background: none;
+            border: none;
+            color: black;
+            font-size: xx-large;
+        }
+        #rightButton{
+            position: absolute;
+            top: 200px;
+            left: 1400px;
+            height: 20px;
+            width: 40px;
+            background: none;
+            border: none;
+            color: black;
+            font-size: xx-large; 
+        }
+        
+    </style>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/19605131/pexels-photo-19605131/free-photo-of-3-people-walking-in-a-forest-autumn-landscape.jpeg?auto=compress&cs=tinysrgb&w=600" id="sampleImage" alt="image 1">
+<button id="leftButton" onclick="trigger"><</button>
+<button id="rightButton" onclick="right">></button>
+    <script src="./app.js"></script>
+</body>
+</html>
